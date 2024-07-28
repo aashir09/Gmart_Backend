@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 
 // MongoDB connection URL
-const MONGODB_URI = 'mongodb://localhost:27017/Gmart';
+const MONGODB_URI = 'mongodb+srv://aashirmansuri:<password>@gmart.j3bcdxy.mongodb.net/?retryWrites=true&w=majority&appName=Gmart';
 
 // Connect to MongoDB
 mongoose.connect(MONGODB_URI, {
